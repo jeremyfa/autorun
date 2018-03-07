@@ -24,7 +24,7 @@ class Foo implements Events {
 }
 ```
 
-This will generate `onBar()`, `onceBar()`, `listensBar()` and `emitFBar()`.
+This will generate `onBar()`, `onceBar()`, `listensBar()` and `emitBar()`.
 
 As you can see, we are taking advantage of `Haxe`'s function syntax to create statically typed events with typed parameters.
 
