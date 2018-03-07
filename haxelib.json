@@ -1,0 +1,12 @@
+{
+  "name": "autorun",
+  "url" : "https://github.com/jeremyfa/autorun/",
+  "license": "MIT",
+  "tags": ["event", "events", "mobx", "observer", "observable", "on", "autorun"],
+  "description": "Utilities to create statically typed events, observable objects and autorun callbacks in Haxe language",
+  "version": "0.1.0",
+  "classPath": "src/",
+  "releasenote": "Utilities to create statically typed events, observable objects and autorun callbacks in Haxe language",
+  "contributors": ["jeremyfa"],
+  "dependencies": {}
+}

@@ -1,0 +1,3 @@
+-cp src
+-main autorun.test.TestMain
+--interp
