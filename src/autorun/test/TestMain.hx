@@ -37,7 +37,7 @@ class TestMain extends Entity implements Events {
         // Create a counter
         var counter = new SomeCounter();
 
-        // Listen to update event
+        // Listen to update event and add ourself as owner
         onUpdate(this, function() {
 
             trace('UPDATE');
@@ -58,7 +58,8 @@ class TestMain extends Entity implements Events {
 
         // Listen to update event and unbind automatically after the first call,
         // meaning the callback will be exactly run once.
-        onceUpdate(this, function() {
+        // (here we didn't provide any owner, which is fine, it is optional)
+        onceUpdate(function() {
 
             trace('UPDATE (ONCE)');
 
